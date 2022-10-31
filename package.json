@@ -1,0 +1,19 @@
+{
+  "name": "proyectohomeassistant",
+  "version": "1.0.0",
+  "description": "Proyecto desarrollado para implementar un sistema de asistente en el hogar usando sensores en diferentes puntos del apartamento",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Rod01Andres/proyectoHomeAssistant.git"
+  },
+  "author": "Andrés Rodríguez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rod01Andres/proyectoHomeAssistant/issues"
+  },
+  "homepage": "https://github.com/Rod01Andres/proyectoHomeAssistant#readme"
+}
