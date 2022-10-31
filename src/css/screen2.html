@@ -4,12 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;600&display=swap" rel="stylesheet">
     <title>Factores de Riesgo</title>
     <style>
-        
+        :root{
+            --fondo: #ffffff;
+            --fondo-grid: #ffffffc1;
+            --fondo-off: #ffffff65;
+            --sm: 12px;
+            --md: 16px;
+            --lg: 22px;
+        }
+        body{
+            font-family: 'Roboto Slab', serif;
+        }
+        .main{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 8px;
+        }
+        .image-container{
+            width: 240px;
+            height: 240px;
+            padding-top: 20px;
+            background-color: aqua;
+            border-radius: 20px;
+        }
+        .image-container img{
+            width: 60%;
+            height: 60%;
+        }
+        .image-container button{
+            font-size: var(--sm)
+        }
+        .image{
+            display: flex;
+            justify-content: center;
+        }
+        .title-container{
+            display: flex;
+            justify-content: center;
+            font-size: var(--sm);
+        }
     </style>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="image-container">
+            <div class="image">
+                <img src="./icons/water.png" alt="water">
+            </div>
+            <div class="title-container">
+                <h1 class="title">Llave del agua</h1>
+            </div>
+        </div>
+        <div class="image-container">
+            <div class="image">
+                <img src="./icons/gas_1.png" alt="gas 1">
+            </div>
+            <div class="title-container">
+                <h1 class="title">Fogón</h1>
+            </div>
+        </div> 
+        <div class="image-container">
+            <div class="image">
+                <img src="./icons/light.png" alt="light">
+            </div>
+            <div class="title-container">
+                <h1 class="title">Luz</h1>
+            </div>
+        </div> 
+        <div class="image-container">
+            <div class="image">
+                <img src="./icons/door.png" alt="door">
+            </div>
+            <div class="title-container">
+                <h1 class="title">Puerta</h1>
+            </div>
+        </div> 
+        <div class="image-container">
+            <div class="image">
+                <img src="./icons/gas_2.png" alt="gas 2">
+            </div>
+            <div class="title-container">
+                <h1 class="title">Gas</h1>
+            </div>
+        </div> 
+        <div class="image-container">
+            <button>
+                <div class="image">
+                    <img src="./icons/exit.png" alt="exit">
+                </div>
+                <div class="title-container">
+                    <h1 class="title">Salir</h1>
+                </div>
+            </button>
+        </div> 
+    </div>
 </body>
 </html>
