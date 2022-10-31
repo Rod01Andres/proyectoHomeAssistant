@@ -19,6 +19,7 @@
         }
         body{
             font-family: 'Roboto Slab', serif;
+            background: rgb(126, 161, 235);
         }
         .main{
             display: grid;
@@ -32,15 +33,16 @@
             width: 240px;
             height: 240px;
             padding-top: 20px;
-            background-color: aqua;
+            background-color: gainsboro;
+            border: 3px solid black;
             border-radius: 20px;
+        }
+        .image-container:hover{
+            background-color: rgb(246, 184, 69);
         }
         .image-container img{
             width: 60%;
             height: 60%;
-        }
-        .image-container button{
-            font-size: var(--sm)
         }
         .image{
             display: flex;
@@ -51,6 +53,7 @@
             justify-content: center;
             font-size: var(--sm);
         }
+        
     </style>
 </head>
 <body>
@@ -96,14 +99,14 @@
             </div>
         </div> 
         <div class="image-container">
-            <button>
+            <a href="./index.html">
                 <div class="image">
                     <img src="./icons/exit.png" alt="exit">
                 </div>
                 <div class="title-container">
                     <h1 class="title">Salir</h1>
                 </div>
-            </button>
+            </a>
         </div> 
     </div>
 </body>
