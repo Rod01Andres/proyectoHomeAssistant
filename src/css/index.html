@@ -15,11 +15,109 @@
             --fondo-off: #ffffff65;
         }
         body {
+            background: rgb(126, 161, 235) ;
             font-family: 'Roboto Slab', serif;
+            width: 480px;
+            height: 320px;
+        }
+        nav {
+            height: 10%;
+            padding-left:10%;
+            align-items: center;
+            border-radius: 20px;
+            background: papayawhip;
+            display: flex;
+        }
+        nav a{
+            margin-left: 10%;
+        }
+        .interfaz {
+            height: 95%;
+            justify-items: center;
+            display: flex;
+        }
+        .bloque_tareas{
+            padding: 2%;
+            background:papayawhip;
+            align-items: center;
+            margin:2%;
+            border-radius: 20px;
+            width: 75%;
+            height: 92%;
+        }
+        .bloque_botones{
+            align-items: center 1fr 1fr;
+            justify-items: center 1fr 1fr;
+            margin: 2%;
+            width: 50%;
+            height: 92%;
+        }
+        .botones{
+            height: 100%;
+            margin: 10%;
+            /*border: 2px solid black;
+            border-radius: 50%;*/
+        }
+        .botones_imagenes{
+            height: 30%;
+        }
+        .tareas{
+
+            margin: 5%;
         }
     </style>
 </head>
 <body>
-    
+    <nav>
+        <h1> Usuario </h1>
+        <a href="">F</a>
+        <a href="">+</a>
+    </nav>
+    <div class="interfaz">
+        <div class="bloque_tareas">
+            Tareas para hoy
+            <div class="tareas">
+                tarea 1
+            </div>
+            <div class="tareas">
+                tarea 2
+            </div>
+            <div class="tareas">
+                tarea 3
+            </div>
+            <div class="tareas">
+                tarea 4
+            </div>
+            <div class="tareas">
+                tarea 5
+            </div>
+        </div>
+        <div class="bloque_botones">
+            <a href="./screen2.html" class="botones">
+                <img src="./chulito.png" alt="" class="botones_imagenes">
+            </a>
+            <a href="./screen2.html" class="botones">
+                <img src="./equis.png" alt="" class="botones_imagenes">
+            </a>
+        </div>
+        <div class="bloque_tareas">
+            Tareas para mañana
+            <div class="tareas">
+                tarea 1
+            </div>
+            <div class="tareas">
+                tarea 2
+            </div>
+            <div class="tareas">
+                tarea 3
+            </div>
+            <div class="tareas">
+                tarea 4
+            </div>
+            <div class="tareas">
+                tarea 5
+            </div>
+        </div>
+    </div>
 </body>
 </html>
